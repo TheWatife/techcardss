@@ -1,0 +1,62 @@
+img{
+    width: 100%;
+    border-bottom: black 1px solid;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button{
+    border-radius: 10%;
+    padding: 5px;
+    width: 20%;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    border: 3px black solid;
+    padding: 3%;
+}
+
+.flex-item{
+    border: black 1px solid;
+    box-shadow: 4px 4px black;
+}
+
+.textbox{
+    background-color: #f7eeed;
+    padding: 3%;
+}
+
+.create{
+    background-color: #fddde6;
+    margin-right: 5px;
+}
+
+.explore{
+    background-color: #b2c9ff;
+}
+
+
+@media (max-width: 700px) {
+    .flex-container{
+        flex-direction: column;
+        text-align: left;
+    }
+
+    button{
+        width: 48%;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 990px){
+    button{
+        border-radius: 10%;
+        padding: 5px;
+        width: 100%;
+    }
+}
